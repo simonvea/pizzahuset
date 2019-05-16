@@ -2,7 +2,7 @@
     <div class="row">
         <div id="home" class="col-sm-12 text-center">
             <div class="background">
-                <h1>Velkommen til Pizza Huset</h1>
+                <h1>Velkommen til Pizzahuset</h1>
                 <h2>Sulten?</h2>
                 <button class="btn btn-success" @click="goToMenu">Bestill!</button>
             </div>

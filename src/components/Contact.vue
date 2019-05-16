@@ -4,7 +4,7 @@
             <h5 class="card-title">Kontakt</h5>     
             <p class="card-text">
                 <address>
-                    <strong>Pizza Huset</strong><br>
+                    <strong>Pizzahuset</strong><br>
                     Adresse linje 1<br>
                     Adresse linje 2<br>
                     TLF: 92834344

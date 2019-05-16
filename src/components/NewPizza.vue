@@ -59,14 +59,14 @@ export default {
     data() {
         return {
             newPizza: {
-                'name': 'Eg. Margherita',
-                'description': 'Eg. A delicious tomato based pizza topped with mozzarella',
+                'name': 'F.eks Margherita',
+                'description': 'F.eks En nydelig pizza toppet med mozzarella',
                 'options': [{
-                    'size': 9,
-                    'price': 6.95
+                    'size': "Medium",
+                    'price': 89
                 }, {
-                    'size': 12,
-                    'price': 10.95
+                    'size': "Stor",
+                    'price': 119
                 }]
             }
         }

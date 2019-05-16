@@ -48,7 +48,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <p>Order total: {{total | currency}}</p>
+                <p>Totalt: {{total | currency}}</p>
                 <button class="btn btn-success btn-block" @click="addNewOrder">Bestill</button>
             </div>
             <div v-else>

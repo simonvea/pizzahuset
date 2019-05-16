@@ -1,7 +1,7 @@
 <template>
     <header class="row">
         <nav class="navbar navbar-expand-md  navbar-light">
-            <a class="navbar-brand" href="/">PIZZA HUSET</a>
+            <a class="navbar-brand" href="/">PIZZAHUSET</a>
             <ul class="navbar-nav mr-auto">
                     <router-link :to="{name: 'homeLink'}" tag="li"><a class="nav-link">Hjem</a></router-link>
                     <router-link :to="{name: 'menuLink'}" tag="li"><a class="nav-link">Meny</a></router-link>
