@@ -45,7 +45,7 @@ export default {
                 let errorMessage = error.message;
 
                 if(errorCode == "auth/wrong-password") {
-                    alert("Wrong password")
+                    alert("Feil passord")
                 } else {
                     alert(errorMessage)
                 }
@@ -54,7 +54,7 @@ export default {
         },
         signOut() {
             Firebase.auth().signOut().then(function() {
-                alert("Logged out")
+                alert("Logget ut")
             }).catch(function(error) {
                 alert(error)
             })

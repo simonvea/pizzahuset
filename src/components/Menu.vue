@@ -66,7 +66,7 @@ export default {
     data() {
         return {
             basket: [],
-            basketText: "Your basket is empty!"
+            basketText: "Handlekurven er tom!"
         }
     },
     computed: {
@@ -107,7 +107,7 @@ export default {
             //this.$store.commit("addOrder", this.basket);
             dbOrdersRef.push(this.basket);
             this.basket = [];
-            this.basketText = "Thank you, your order has been placed! :)"
+            this.basketText = "Takk, pizzaen er på vei! :)"
         }
     }   
 }
